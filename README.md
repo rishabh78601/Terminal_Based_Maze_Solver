@@ -64,7 +64,7 @@ Develop a terminal-based application that generates a random maze, finds a path 
   - Marks the path on the maze for visualization.
 
 ## Sample Output:
-The maze should be visualized in the terminal with distinct characters or colors for:
+The maze should be visualizing in the terminal with distinct characters or colors for:
 - Start (S) and End (E)
 - Walls: ▓ (red)
 - Open Space: ◌ (Blue)

@@ -69,6 +69,10 @@ The maze should be visualizing in the terminal with distinct characters or color
 - Walls: ▓ (red)
 - Open Space: ◌ (Blue)
 - Path: ◍ (Green)
+### Sample Output:
+![Maze and Path Output](D:\Downloads\image (1).png)
+
+<!-- Add more details if needed -->
 
 ## Future Perspective:
 - Implemented additional maze generation algorithms:

@@ -25,12 +25,12 @@ Develop a terminal-based application that generates a random maze, finds a path 
   4.	queue: Used for the queue in BFS.
 
 ## Algorithms:
-  1.	Maze Generation Algorithms:
+  ### 1.	Maze Generation Algorithms:
    <li>	Recursive Backtracking
    <li>Prim's Algorithm
    <li>Randomized Prim's Algorithm
   
-  2.	Pathfinding Algorithms:
+  ### 2.	Pathfinding Algorithms:
    <li>Depth-First Search (DFS)
    <li>A* Algorithm
    <li>Dijkstra's Algorithm

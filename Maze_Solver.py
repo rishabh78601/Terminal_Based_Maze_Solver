@@ -31,9 +31,9 @@ class MazeSolver:
         elif cell == '◌':
             return "\033[94m◌\033[0m"  # Using blue for open space
         elif cell == 'S':
-            return "\033[93mS\033[0m"  # Using yellow for start
+            return "\033[92mS\033[0m"  # Using yellow for start
         elif cell == 'E':
-            return "\033[93mE\033[0m"  # Using yellow for end
+            return "\033[92mE\033[0m"  # Using yellow for end
 
     def find_path(self):
         # Finding a path from the start to the end using depth-first search

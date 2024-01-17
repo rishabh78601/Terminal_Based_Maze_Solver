@@ -110,7 +110,7 @@ class MazeSolver:
         path = dfs(*self.start)
         return path
 
-    def find_path_a_star(self):
+    def find_path_a_star(self): # A* Search Algorithm is a simple and efficient search algorithm that can be used to find the optimal path between two nodes in a graph.
         # Finding a path from the start to the end using the A* algorithm
         open_set = []
         heapq.heappush(open_set, (0, self.start))
@@ -134,7 +134,7 @@ class MazeSolver:
 
         return []
 
-    def find_path_dijkstra(self):
+    def find_path_dijkstra(self): # It finds the shortest path between a given node (which is called the "source node") and all other nodes in a graph.
         # Finding a path from the start to the end using Dijkstra's algorithm
         visited = set()
         pq = [(0, self.start)]
